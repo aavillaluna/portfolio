@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../styles/poster.css";
+
+/* Small global helpers */
+:root {
+  --poster-pink: #eababa;
+  --poster-cream: #eeeadd;
+  --poster-ink: #121212;
+}
+
+/* A tiny bit of polish */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-underline-offset: 4px;
+}
+
+::selection {
+  background: rgba(217, 143, 155, 0.55);
+}
